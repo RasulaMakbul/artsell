@@ -131,3 +131,28 @@ a:active {
 }
 
 .navbar .grid .gridNav; */
+
+/*edit carosel image scroll*/
+div.scrollmenu {
+    background-color: rgb(236, 229, 229);
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu img {
+    height: 200px;
+    width: 200px;
+    padding-left: 1em;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}

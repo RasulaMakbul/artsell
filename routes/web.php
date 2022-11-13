@@ -35,4 +35,6 @@ Route::middleware('auth')->group(function () {
         return view('admins/settings');
     });
     Route::get('/admin/aboutUsAdminView', [AdminController::class, 'aboutUsAdminView'])->name('admin.aboutUsAdminView');
+    Route::get('/admin/settings', [AdminController::class, 'settings'])->name('admin.settings');
+    Route::post('/admin/storeCarosel', [AdminController::class, 'storeCarosel'])->name('admin.storeCarosel');
 });
